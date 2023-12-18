@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "camping-buddy-ff446"
+  },
+  "targets": {
+    "camping-buddy-ff446": {
+      "hosting": {
+        "site": [
+          "camping-buddy-site"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+.selectionContainer{
+
+}
+
+.optionsContainer {
+    background-color: #FFFFFF;
+    padding: 20px 0;
+    position: fixed;
+    margin-top:-10px;
+    border-radius: 0 20px 20px;
+    -webkit-box-shadow: 0px 0px 13px 4px rgba(0,0,0,0.22);
+    box-shadow: 0px 0px 13px 4px rgba(0,0,0,0.22);
+    z-index: 10;
+}
+
+.optionsBgContainer{
+    background-color: #ffffff90;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    z-index: 9;
+}
+
+.optionsHeaderText{
+    padding:10px 20px;
+    border-bottom:3px solid var(--primary);
+    margin-bottom:10px;
+    font-weight: bold;
+    font-family: 'MadeTommy', Arial, Helvetica, sans-serif;
+}
+.optionsHolder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+.option{
+    padding:10px 20px;
+    flex:1;
+    text-align: left;
+    font-family: "Retroica","Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+
+}
+.selectedOption{
+    background-color: var(--primary);
+    color:var(--text);
+}
+.icon_sort{
+    width: 30px;
+}
+.icon_share{
+    width: 20px;
+    
+}
+.icon_add{
+    width: 20px;
+   
+}

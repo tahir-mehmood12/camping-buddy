@@ -1,0 +1,102 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  margin-top: 20px;
+  max-width: 100%;
+  }
+
+ 
+.memberContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width:100%;
+  margin-top:10px;
+}
+
+.memberAddContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width:100%;
+  margin-top:40px;
+}
+
+.memberDetails{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  justify-content: center;
+  font-size: 16px;
+  color: var(--black);
+  padding:0 10px 0 10px;
+}
+
+.memberName{
+  font-weight: bold;
+  font-family: 'MadeTommy', Arial, Helvetica, sans-serif;
+  text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-align: left;
+
+}
+.memberEmail{
+  font-size: 14px;
+  font-family: 'MadeTommy', Arial, Helvetica, sans-serif;
+  text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-align: left;
+}
+
+.memberLeft{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.memberRight{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.nameInput{
+  color: var(--text);
+  padding:10px 0;
+    border: none;
+    background: none;
+    text-align: center;
+    font-family: 'MadeTommy', Arial, Helvetica, sans-serif;
+    text-overflow: ellipsis;
+}
+.nameInput::placeholder{
+  color: #00000031;
+}
+
+.nameInput, .nameInput::placeholder{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'MadeTommy', Arial, Helvetica, sans-serif;
+}
+.circle{    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border: 2px solid var(--primary);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+color: var(--primaryDark);}

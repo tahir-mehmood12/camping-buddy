@@ -1,0 +1,8 @@
+  .heading {
+    color: var(--black)!important;
+    font-family: 'MadeTommy', Arial, Helvetica, sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+    margin:0;
+    padding:5px;
+  }

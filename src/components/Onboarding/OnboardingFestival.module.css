@@ -1,0 +1,60 @@
+
+  .festivalsContainer {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  }
+
+  
+  
+
+  .containerContentTop{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
+  .img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  
+  .content {
+    padding:10px;
+    font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    align-items: center;
+  }
+  
+  
+
+  .contentText{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    width: 80%;
+    max-width: 600px;
+    min-width: 300px;
+  }
+  .contentText p{
+    text-align: center;
+    font-weight: normal;
+  }
+  
+  .cursorPointer {cursor: pointer;}
+  
+  a{
+    color: var(--primaryDark);
+  }
+
+  @media (max-width: 400px) {
+   
+    .festivalsContainer{flex-direction: column;     align-items: center;}
+  
+  }

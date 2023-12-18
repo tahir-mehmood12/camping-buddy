@@ -1,0 +1,91 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: space-between; 
+  flex-grow: 1;
+  }
+
+
+
+  .homeWorldContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    flex-grow: 1;
+    margin: 20px 0;
+    max-width: 600px;
+  }
+
+  .homeWorld{
+    height: 50%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .homeBannerText{
+    font-weight: bold;
+    font-family: 'MadeTommy', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+  }
+
+  .hbt1 {transform: translate(20px, 85px) rotate(-30deg);}
+  .hbt2 {transform: translate(20px, 85px) rotate(-30deg);}
+
+  .buttonContainer{
+    width: 400px;
+    margin-bottom: 20px;
+    max-width: 95vw;
+  }
+  
+  .artistQuoteContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: space-between; 
+    background-color: var(--primary);
+    padding: 20px;
+    font-size: 16px;
+    color: var(--text);
+    border: none;
+    box-shadow: 5px 7px 11px -4px rgba(0,0,0,0.32);
+    min-height: auto;
+    border-radius:20px;
+    text-align: center;
+  }
+
+  .artistQuote{
+    font-weight: bold;
+    font-family: 'MadeTommy', Arial, Helvetica, sans-serif;
+
+  }
+  .artistName{
+    font-style:italic;
+    font-family: 'MadeTommy', Arial, Helvetica, sans-serif;
+  }
+
+  .warningContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: space-between; 
+    background-color: var(--red);
+    padding: 20px;
+    font-size: 16px;
+    color: var(--text);
+    border: none;
+    box-shadow: 5px 7px 11px -4px rgba(0,0,0,0.32);
+    min-height: auto;
+    border-radius:20px;
+    text-align: center;
+  }
+
+  .warning{
+    font-weight: bold;
+    font-family: 'MadeTommy', Arial, Helvetica, sans-serif;
+    color: var(--white);
+
+  }

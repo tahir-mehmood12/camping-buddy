@@ -1,0 +1,16 @@
+.dateContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 2px;
+  background-color: var(--white);
+  padding: 5px 15px;
+  border-radius: 10px;
+  border: 1px solid var(--primary);
+  }
+  .dateText{
+    font-family: "Retroica","Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+  }
+  

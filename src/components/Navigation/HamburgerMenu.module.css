@@ -1,0 +1,110 @@
+.HB_bg{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #ffffffbb;
+  height: 100%;
+  width:100%;
+  z-index: 200;
+  display: flex;
+  justify-content: right;
+}
+
+.HB_left{
+  flex-grow: 1;
+}
+.HB_container {
+  background-color: var(--primary);
+  height: 100%;
+  border-radius: 30px 0 0 30px;
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+}  
+
+.HB_iconContainer{
+  display: flex;
+  justify-content: right;
+  margin: 20px 20px 40px 0;
+}
+
+.HB_icon{
+  width:30px;
+   /*filter to invert from white icon to black icon*/
+   filter: invert(100%) sepia(7%) saturate(157%) hue-rotate(118deg) brightness(116%) contrast(100%);
+}
+.HB_scrollContainer{
+  overflow-y: auto;
+  padding-bottom: 50px;
+}
+
+.HB_profile{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: var(--text)
+}
+
+.HB_details {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.HB_name{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  font-weight: bold;
+}
+.HB_email{
+  font-size:12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+.HB_avatar{
+  padding: 10px;
+}
+.HB_heading {
+  background-color: #FFFFFF;
+  color: var(--primaryDark);
+  border-radius: 20px 0 0 20px;
+  padding: 10px 20px;
+  margin: 20px 0 20px 50px;
+  text-transform: uppercase;
+  font-family: 'MadeTommy', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  /*https://html-css-js.com/css/generator/box-shadow/*/
+  -webkit-box-shadow: -8px 1px 9px -5px rgba(0,0,0,0.43); 
+  box-shadow: -8px 1px 9px -5px rgba(0,0,0,0.43);
+}
+
+.HB_button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 10px 20px 60px;
+  flex:1
+}
+
+.HB_buttonIcon{
+  width:30px;
+}
+  
+.HB_buttonText{
+  color: var(--text);
+  margin: 0 20px;
+  flex: 1;
+  font-family: 'MadeTommy', Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  text-align: left;
+}
+
+.HB_buttonArrow{
+  width:10px;
+  padding-right:10px;
+}
+  

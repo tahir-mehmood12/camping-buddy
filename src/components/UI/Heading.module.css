@@ -1,0 +1,11 @@
+.heading1 {
+    color: var(--text);
+    font-family: 'MadeTommy', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin:0;
+    padding:5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }

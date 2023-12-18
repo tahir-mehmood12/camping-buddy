@@ -1,0 +1,13 @@
+.numberAdd{
+    background-color: var(--primary);
+    padding:1px;
+    border-radius: 0 10px 10px 0;
+  }
+  .numberRemove{
+    background-color: var(--primary);
+    padding:1px;
+    border-radius: 10px 0 0 10px;
+  }
+  .hidden{
+    display: none!important;
+  }

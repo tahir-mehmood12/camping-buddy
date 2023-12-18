@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2a5669ae.css",
+    "main.js": "/static/js/main.fc8c6ad8.js",
+    "static/media/world1.png": "/static/media/world1.8d05d2d10d44bc488483.png",
+    "static/media/world5.png": "/static/media/world5.af4e4733aa15e94f2f03.png",
+    "static/media/world3.png": "/static/media/world3.78bf299a2b261bd5f60e.png",
+    "static/media/MadeTommyExtraBold.otf": "/static/media/MadeTommyExtraBold.76e6daa1c9100e32f75e.otf",
+    "static/media/world2.png": "/static/media/world2.8a26ac1198f7fedbc948.png",
+    "static/media/world4.png": "/static/media/world4.d32954384170d536ba3b.png",
+    "static/media/MadeTommyExtraBold.ttf": "/static/media/MadeTommyExtraBold.e6ffd7ce12c437b5680d.ttf",
+    "static/media/koala_login.png": "/static/media/koala_login.ed53ac9f42f4618ef529.png",
+    "static/media/coming.png": "/static/media/coming.1b74061842f1dc45a591.png",
+    "static/media/circlelizard.png": "/static/media/circlelizard.5556f263dd083478c7db.png",
+    "static/media/circlequokka.png": "/static/media/circlequokka.1c7719af479f989fe2ea.png",
+    "static/media/circlekoala.png": "/static/media/circlekoala.7785162aef352ff325d9.png",
+    "static/media/circlecod.png": "/static/media/circlecod.4b1efc2de7f0379d5f10.png",
+    "static/media/Retroica.ttf": "/static/media/Retroica.56158ba43613463f66a7.ttf",
+    "static/media/circlepossum.png": "/static/media/circlepossum.978bb5b418585deb40fd.png",
+    "static/media/circlekangaroo.png": "/static/media/circlekangaroo.db713780d76695165943.png",
+    "static/media/hot.png": "/static/media/hot.aa375be3e863c1451342.png",
+    "static/media/cold.png": "/static/media/cold.8eb1f133ea97c8b409d5.png",
+    "static/media/circlewombat.png": "/static/media/circlewombat.67ea8a0898877e28e92d.png",
+    "static/media/circletassiedevil.png": "/static/media/circletassiedevil.7498ae795efa3b0bffeb.png",
+    "static/media/circlegalah.png": "/static/media/circlegalah.4585ac3c7bfb1f93b9ce.png",
+    "static/media/rain.png": "/static/media/rain.adf2e10cb858c630888d.png",
+    "static/media/storm.png": "/static/media/storm.421b9eaff925e834e43f.png",
+    "static/media/suncloud.png": "/static/media/suncloud.27c0e043d26b8db38f01.png",
+    "static/media/cloud.png": "/static/media/cloud.9107e1ac0f6768a4dc2d.png",
+    "static/media/sun.png": "/static/media/sun.a1db3b82df83899cef0f.png",
+    "index.html": "/index.html",
+    "main.2a5669ae.css.map": "/static/css/main.2a5669ae.css.map",
+    "main.fc8c6ad8.js.map": "/static/js/main.fc8c6ad8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a5669ae.css",
+    "static/js/main.fc8c6ad8.js"
+  ]
+}

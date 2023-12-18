@@ -1,0 +1,89 @@
+.container {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    width: calc(100% - 20px);
+    background-color: #FFF;
+  }
+
+  .tabs{
+    width: 600px;
+    display: flex;
+    justify-content:space-between;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  .tab {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    font-family: 'MadeTommy', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    max-width: 20vw;
+    overflow: hidden;
+  }
+
+  .titleActive {
+    color: var(--primaryDark);
+  }
+  
+  .titleInactive {
+    color: var(--grey);
+    opacity: .7;
+  }
+
+  .list .a {
+    text-decoration: none;
+    color: var(--color-primary-400);
+  }
+  .list a:hover,
+   .list a.active {
+    color: var(--color-primary-800);
+    text-decoration: underline;
+  }
+
+  .iconActive{
+    width:50px;
+    opacity:1;
+    /*https://codepen.io/sosuke/pen/Pjoqqp*/
+    filter: invert(46%) sepia(76%) saturate(418%) hue-rotate(38deg) brightness(93%) contrast(107%);
+  }
+  .iconInactive{
+    opacity: .7;
+    width:50px;
+    filter: invert(52%) sepia(5%) saturate(8%) hue-rotate(314deg) brightness(92%) contrast(91%);
+  }
+
+  .tabBadge{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    /* top: -10px; */
+    margin-left: 30px;
+    margin-top: -40px;
+    font-size: 12px;
+    font-family: 'MadeTommy', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:var(--white);
+  }
+
+    .tabBadgeInactive{
+      background-color: var(--grey);
+    }
+
+    .tabBadgeActive{
+      background-color: var(--primaryDark);
+    }
+
+    @media (max-width: 768px) {
+      .iconActive, .iconInactive{width:30px;}
+      .tab{    font-size: 10px;}
+
+    }

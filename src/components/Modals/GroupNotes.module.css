@@ -1,0 +1,43 @@
+
+.notePad{
+  background-color: #fffde8;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex: 1;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 5px 7px 11px -4px rgba(0,0,0,0.32);
+  margin-bottom:20px;
+  min-width: 400px;
+
+}
+
+.notePadHeader{
+  border-bottom: 1px solid var(--black);
+  padding:10px 0;
+  font-family: 'MadeTommy', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  width:90%;
+}
+.notesButton{
+  background-color: var(--primary);
+  padding: 3px 10px;
+  margin: 0 5px;
+  border-radius: 15px;
+  box-shadow: 5px 7px 11px -4px rgba(0,0,0,0.32);
+}
+.notes{
+  padding:20px 0;
+  background: none;
+  border: none;
+  font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+  width:90%;
+  font-size: 14px;
+  flex:1
+}
+.notepad_icon{
+  width:40px;
+}

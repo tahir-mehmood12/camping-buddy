@@ -1,0 +1,205 @@
+
+.formFlexRow{
+  display: flex;
+  flex-direction: row;
+}
+
+.formInput{
+  margin-bottom:20px;
+  border: none;
+  box-shadow: 5px 7px 11px -4px rgba(0,0,0,0.32);
+  font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+.formInput::placeholder{
+  color:#000000;
+}
+
+input[type="date"]::before { 
+  content: attr(data-placeholder);
+  width: 100%;
+}
+
+input[type="date"]:focus::before,
+input[type="date"]:valid::before { display: none }
+
+.submitButton {
+  width:420px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+.settings_buttonText{
+  color: var(--text);
+  margin: 0 20px;
+  flex: 1;
+  font-family: 'MadeTommy', Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  text-align: left;
+}
+.settings_button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+  flex:1
+}
+
+.settings_buttonIconHolder{ width:40px; display: flex;     justify-content: flex-start; align-items: center;}
+.settings_buttonIcon{
+  height:30px;
+}
+
+.settings_buttonArrow{
+  width:10px;
+  padding-right:10px;
+}
+
+.addEventContainer {
+display: flex;
+justify-content: center;
+padding: 30px;
+}
+
+.addEventButtonLabel{
+color: var(--text);
+font-weight: bold;
+
+}
+.addEventButtonIcon{
+color: var(--primaryDark);
+}
+
+.editMemberContainer {
+  margin-top:30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.editMemberForm{
+width:80%;
+max-width: 600px;
+}
+
+.avatarContainer{
+  flex: 1 0 25%;
+  margin: 10px 5px;
+  cursor: pointer;
+}
+.avatarsContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+}
+.editorContainer{
+  margin:20px 0;
+}
+.editMemberForm .formInput::placeholder{
+  color:#00000063;
+}
+
+.editItemForm{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 10px 20px 10px;
+    width: calc(100% - 30px);
+}
+.editItemName{
+  background-color: var(--white);
+  border-radius:20px;
+  padding:20px;
+  font-family: "Retroica","Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+  margin: 0 5px;
+  border: none;
+  box-shadow: 5px 7px 11px -4px rgba(0,0,0,0.32);
+  font-size: 14px;
+  text-align: left;
+  text-wrap: nowrap;
+}
+.editItemEqual{
+  font-family: "Retroica","Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+}
+.editItemAssign{
+  font-family: "Retroica","Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+  width: auto; 
+  margin: 0 5px;
+  flex: 3;
+  max-width: 30%;
+
+  background-color: var(--white);
+  border-radius:20px;
+  padding:20px;
+  border: none;
+  box-shadow: 5px 7px 11px -4px rgba(0,0,0,0.32);
+  font-size: 14px;
+
+}
+.editItemMethod{
+  font-family: "Retroica","Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+  width: auto; 
+  margin: 0 5px;
+  flex: 2;
+  background-color: var(--white);
+  border-radius:20px;
+  padding:20px;
+  border: none;
+  box-shadow: 5px 7px 11px -4px rgba(0,0,0,0.32);
+  font-size: 14px;
+  max-width: 30%;
+}
+.editItemSelectPlaceholder{
+  color: var(--grey);
+}
+.editItemProgressIcon{
+  width:30px;
+  height:30px;
+  vertical-align: middle;
+}
+.editItemDelete{
+  flex:1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left:5px
+}
+
+.editItemNotes{
+  padding: 20px;
+    background: none;
+    background-color: var(--white);
+    border: none;
+    font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+    width: calc(90% - 40px);
+    font-size: 14px;
+    margin-bottom: 20px;
+    /* flex-grow: 1; */
+    height: 100px;
+    box-shadow: 5px 7px 11px -4px rgba(0,0,0,0.32);
+    border-radius: 20px;
+}
+
+
+.icon_share{
+  width: 20px;
+}
+
+@media (max-width: 500px) {
+  .editItemName{
+    background-color: inherit;
+    box-shadow: none;
+    padding: 0;
+  }
+  .editItemEqual{display: none;}
+
+ }

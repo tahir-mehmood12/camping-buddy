@@ -1,0 +1,188 @@
+:root {
+  --primary: #C7DEA0;
+  --primaryDark: #66910f;
+  --text:#000000;
+  --secondary: #F8A49E;
+  --gradient1:#F8FBF4;
+  --gradient2:#E3EDD0;
+  --green: #02884E;
+  --white:#ffffff;
+  --black: #222423;
+  --grey: #7c7c7c;
+  --lightgrey:#d7d7d7;
+  --red:#b10000;
+
+}
+
+@font-face {
+  font-family: 'MadeTommy';
+  src: local('MadeTommy'), 
+       url('./fonts/MadeTommyExtraBold.ttf') format('truetype'),
+       url('./fonts/MadeTommyExtraBold.otf') format('otf');
+}
+@font-face {
+  font-family: 'Retroica';
+  src: local('Retroica'), url('./fonts/Retroica.ttf') format('truetype')
+}
+
+
+html {
+  margin: 0;
+  height: 100%; 
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  overflow: hidden; 
+}
+
+#root{
+  height: 100%;
+  font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+  color:#131C1A;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  max-height: 100vh;
+}
+
+.content{
+  width:100%;
+  display: flex;
+  overflow-x: auto;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.bg{
+  height:100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background: var(--gradient1);
+  background: linear-gradient(0deg, var(--gradient2) 0%, var(--gradient1) 40%, var(--gradient1)  60%, var(--gradient2) 100%);
+}
+
+.flex{
+  display: flex;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:100%;
+}
+
+input, select{
+  border-color: var(--primary);
+  border-width:3px;
+  border-radius:20px;
+  padding:20px 10px;
+  width: 100%;
+  border-style: solid;
+ 
+}
+select{
+  width: calc(100% + 20px);
+  color: var(--text);
+}
+input[type="checkbox"]{
+  width:auto;
+  margin-right: 10px;
+} 
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+.headerImage img{
+  max-width: 100px;
+  margin-bottom: -20px;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.pledgeCheckboxHolder{
+  margin: 0 50px;
+  text-align: center;
+}
+
+.pledgeCheckbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.passwordInputDiv{
+  width:395px !important;
+  margin-left: -30px;
+  max-width: calc(100% - 30px)!important;
+}
+.passwordVisibilityIcon{
+  margin-left:-60px;
+  cursor: pointer;
+}
+
+#root a{color: #131C1A; text-decoration: underline;}
+.loginForm{
+  overflow-x:auto;
+  max-width: 90vw;
+}
+.loginButton {
+  width:420px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+.tagline {
+  font-weight: bold;
+  margin-bottom:20px;
+  font-family: 'MadeTommy', Arial, Helvetica, sans-serif;
+}
+.underlinedInlineLink{
+  display: inline;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.note{
+  font-style: italic;
+  padding:20px;
+}
+.errorMessage{
+  padding:5px;
+  color: var(--red);
+  font-weight: bold;
+}
+
+.launchLogoHolder{display: flex; justify-content: center;}
+img.launchLogo{width:100px; height:62px; margin-bottom:10px;}
+
+.actionButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary);
+  width: 60px; height: 40px;
+  margin: 0 5px;
+  border-radius: 15px;
+  box-shadow: 5px 7px 11px -4px rgba(0,0,0,0.32);
+  -webkit-box-shadow: 5px 7px 11px -4px rgba(0,0,0,0.32);
+  position: relative;
+}

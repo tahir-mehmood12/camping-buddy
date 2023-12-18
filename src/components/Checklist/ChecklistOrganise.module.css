@@ -1,0 +1,96 @@
+.organiseContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    padding-top: 30px;
+}
+
+.organiseIconsContainer{
+    display: flex;
+    justify-content: flex-end;
+    margin-left:10px;
+    overflow-x: hidden;
+}
+.organiseMethodIcon{
+    display: flex;
+    margin-left:2px;
+}
+.organiseAvatarIcons{
+    display: flex;
+    margin-left:2px;
+}
+
+.proTipContainer {
+    border: 1px dashed var(--primary);
+    width:80%;
+    margin-bottom: 20px;
+}
+
+.proTipHeaderContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: -15px;
+}
+
+.proTipHeader {
+    background-color: var(--primary);
+    color: var(--text);
+    font-family: 'MadeTommy', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: inline;
+    padding: 5px 10px;
+    border-radius:10px;
+
+}
+
+.proTipContent {
+    font-family: "Retroica","Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+    padding:10px;
+
+}
+
+.organiseSubItemsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    flex:1;
+}
+.organiseSubItemsAddContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin:30px 0;
+}
+
+.organiseFooter{
+
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.avatarBadge{
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    /* top: -10px; */
+    margin-left: 12px;
+    margin-top: -30px;
+    font-size: 8px;
+    font-family: 'MadeTommy', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: var(--primaryDark);
+    background-color: var(--white);
+    border: 1px solid var(--primary);
+  }

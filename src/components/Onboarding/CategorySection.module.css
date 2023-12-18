@@ -1,0 +1,52 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: #F9F9F9;
+  border-radius: 30px;
+  border: 2px solid #E8E8E8;
+  padding: 20px;
+  margin-bottom: 10px;
+  }
+
+  .heading{
+    color: var(--text);
+    font-size:18px;
+    font-family: 'MadeTommy', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .note{
+    font-style: italic;
+    margin: 10px 0;
+  }
+
+  .items{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    flex-wrap: wrap;
+    gap: 10px 5px;
+  }
+
+  .item {
+    margin-right: 10px;
+    font-family: "Retroica","Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+    padding:10px;
+    border-radius:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--text);
+  }
+
+  .itemOn{
+    background-color: var(--primary);
+  }
+
+  .itemOff{
+    background-color: var(--lightgrey);
+  }
